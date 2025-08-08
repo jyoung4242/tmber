@@ -147,7 +147,7 @@ int main()
     sf::SoundBuffer OOTBuffer("sound/out_of_time.wav");
     //sf::SoundBuffer deathBuffer("sound/death.wav");
         
-    sf::Sound soundOOT(OOTBuffer);
+	sf::Sound soundOOT(OOTBuffer);  //<------- comment this out to make the exception not crash the program
     //soundOOT.play();
     //std::unique_ptr<sf::Sound> soundOOT = std::make_unique<sf::Sound>(OOTBuffer);
     //sf::Sound soundChop(chopBuffer);
